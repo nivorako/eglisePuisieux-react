@@ -3,24 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Bouton from './components/Bouton'
 import Logo from './components/Logo'
 import TextHeader from './components/TextHead'
+import Contenu1 from './components/Contenu1'
 import './App.css';
 
 class App extends Component {
-  constructor(props){
-    super(props);
-    this.state = { todos : [] }
-  }
-  onNewTodo(todo){
-    let newTodoList = this.state.todos;
-    newTodoList.push(todo);
-    this.setState({ todos : newTodoList });
-  }
   render(){
     return (
-        <div className="Container App">      
-            <header className="Container App-header d-flex flex-column justify-content-around">
+        <div className="App">      
+            <header className=" App-header d-flex flex-column justify-content-around">
                 <div className='row'>
-                    <div className='col-3 d-flex justify-content-start'>
+                    <div className='col-2 d-flex justify-content-start'>
                         <Logo />
                     </div>
                     <div className='col d-flex  align-items-center justify-content-start'>
@@ -33,7 +25,22 @@ class App extends Component {
                     </div>
                 </div>  
             </header>
-            <div className="App-contenu">ici</div>
+            <div className="App-contenu">
+                <div className="row">
+                    <div className='col'>
+                        <Contenu1 />
+                    </div>
+                    <div className='col-4 App-contenu2'>
+                        
+                    </div>
+                </div>
+                <div className='nav'>
+                    ici nav
+                </div>
+            </div>
+            <div className="App-footer">
+                ici footer
+            </div>
         </div>
     );
   }

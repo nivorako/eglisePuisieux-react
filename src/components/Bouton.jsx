@@ -4,7 +4,7 @@ import './Bouton.css'
 export default class Bouton extends React.Component {
     render(){
         return (
-            <div className='container-fluid'>
+            <div>
                 <div className="row headerButton">   
                     <a className="col" href="#">Accueil</a>
                     <div className='col dropdown'>

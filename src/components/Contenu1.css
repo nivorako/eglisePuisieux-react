@@ -1,0 +1,14 @@
+.contenu1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    background-image: url("bible1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .entete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

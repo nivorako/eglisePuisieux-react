@@ -8,4 +8,12 @@
 }
 .App-contenu{
   min-height: 100vh;
+  margin-top: 20px;
+  
+}
+.App-contenu1{
+  height: 100vh;
+  background-image: url("bible1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
