@@ -4,6 +4,7 @@ import Bouton from './components/Bouton'
 import Logo from './components/Logo'
 import TextHeader from './components/TextHead'
 import Contenu1 from './components/Contenu1'
+import Contenu2 from './components/Contenu2'
 import './App.css';
 
 class App extends Component {
@@ -29,13 +30,11 @@ class App extends Component {
                 <div className="row">
                     <div className='col'>
                         <Contenu1 />
-                    </div>
-                    <div className='col-4 App-contenu2'>
                         
                     </div>
-                </div>
-                <div className='nav'>
-                    ici nav
+                    <div className='col-4 App-contenu2'>
+                        <Contenu2 />
+                    </div>
                 </div>
             </div>
             <div className="App-footer">

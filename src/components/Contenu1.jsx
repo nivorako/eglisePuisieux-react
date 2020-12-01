@@ -17,7 +17,7 @@ class Contenu1 extends React.Component {
                         <p>Salamo 23;</p>
                         <p>Ezekiela 34-11-17;</p>
                     </div>
-                    <div className='col'>
+                    <div className='col d-flex justify-content-center'>
                         <p>Korintiana;</p>
                         <p>Marka 13-33-37;</p>
                     </div>

@@ -1,0 +1,30 @@
+.contenu2{
+    height: 100vh;
+    color: black;
+}
+
+.section1, .section3{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.section1 a{
+    padding-top: 10px;
+    text-align: center;
+    border: thin white solid;
+    height: 50px;
+    color: #000;
+}
+.section2{
+    height: 50vh;
+    background-image: url("messe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section3 a{
+    padding-top: 10px;
+    text-align: center;
+    border: thin white solid;
+    height: 50px;
+    color: #000;
+}
