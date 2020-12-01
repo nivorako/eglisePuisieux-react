@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import ToDoForm from './components/ToDoForm';
-import List from './components/List';
 import Bouton from './components/Bouton'
 import Logo from './components/Logo'
+import TextHeader from './components/TextHead'
 import './App.css';
 
 class App extends Component {
@@ -19,18 +18,14 @@ class App extends Component {
   render(){
     return (
         <div className="Container App">      
-            <header className="Container App-header">
+            <header className="Container App-header d-flex flex-column justify-content-around">
                 <div className='row'>
-                    <div className='col-2'>
+                    <div className='col-3 d-flex justify-content-start'>
                         <Logo />
                     </div>
-                    <div className='col'>
-                        <div>
-                            <h2>FIANGONANA PROTESTANTA MALAGASY</h2>
-                            <h3>Orimbaton ny Finoana</h3>
-                        </div>
+                    <div className='col d-flex  align-items-center justify-content-start'>
+                        <TextHeader />
                     </div>
-                    
                 </div>
                 <div className='row d-flex justify-content-center'>
                     <div>
@@ -38,11 +33,7 @@ class App extends Component {
                     </div>
                 </div>  
             </header>
-            
-            <div className="App-intro">
-                <ToDoForm onNewTodo={this.onNewTodo.bind(this)}/>
-                <List todos={this.state.todos}/>
-            </div>
+            <div className="App-contenu">ici</div>
         </div>
     );
   }

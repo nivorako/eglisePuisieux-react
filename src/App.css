@@ -1,12 +1,11 @@
-
-
 .App-header {
-  background-color: #282c34;
-  min-height: 50vh;
+  background-image: url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.App-intro{
+.App-contenu{
   min-height: 100vh;
 }
-

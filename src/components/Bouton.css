@@ -1,0 +1,31 @@
+
+ a{
+    color: whitesmoke;
+}
+a:hover{
+    color: whitesmoke;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown-content a{
+    margin: 10px;
+    padding-left: 10px;
+    background-color: rgb(238, 225, 225);
+    color: black;
+    width: 300px;
+    display: block;
+}
+.dropdown-content a:hover{
+    color: black;
+}
+.dropdown {
+    position: relative;
+    display: block;
+  }
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
