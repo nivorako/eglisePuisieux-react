@@ -6,7 +6,7 @@ export default class Bouton extends React.Component {
         return (
             <div>
                 <div className="row headerButton">   
-                    <a className="col" href="#">Accueil</a>
+                    <a className="col " href="#">Accueil</a>
                     <div className='col dropdown'>
                         <a href="#">Sections</a>
                         <div className="dropdown-content">
@@ -19,7 +19,14 @@ export default class Bouton extends React.Component {
                         </div>
                     </div>
                     <a className="col" href="#">Historique</a>
-                    <a className="col" href="#">vie de l'église</a>     
+                    <div className='col dropdown'>
+                        <a href="#">Vie de l'église</a>
+                        <div className="dropdown-content">
+                            <a href="#">ConfCall Biblique</a>
+                            <a href="#">Programme du dimanche</a>
+                            <a href="#">Zavatra Hafa</a>
+                        </div>
+                    </div>
                     <a className="col" href="#">Contact</a>     
                 </div> 
             </div>

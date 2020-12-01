@@ -7,9 +7,11 @@ class Contenu1 extends React.Component {
             <div className="contenu1">
                 <div className="row">
                     <div className='col entete'>
-                        <h2>Ce dimanche 22 Novembre</h2>
-                        <p>Rejoignez nous</p>
-                        <p>Tel:........Allo!!!</p>
+                        <h1>Ce dimanche 22 Novembre</h1>
+                        <span>
+                            <p>Rejoignez nous</p>
+                            <p>Tel:........Allo!!!</p>
+                        </span>
                     </div>
                 </div>
                 <div className="row">

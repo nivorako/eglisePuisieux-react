@@ -1,4 +1,5 @@
 .contenu1{
+    font-family: cursive;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,9 +8,30 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .entete{
+.entete{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+.entete h1{
+    padding-top: 10px;
+    text-align: center;
+    width: 400px;
+    transition: all 1s;
+  }
+.entete h1:hover{
+  background-color: rgb(221, 227, 230);
+  text-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 5px black;
+  }
+.entete span{
+    padding-top: 20px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    transition: all 1s;
+  }
+.entete span:hover{
+  
+}

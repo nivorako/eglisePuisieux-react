@@ -6,14 +6,17 @@
 .section1, .section3{
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: rgb(171, 201, 236);
+}
+.section1 a:hover{
+    background-color: rgb(10, 74, 170);
+    text-decoration: none;
 }
 .section1 a{
     padding-top: 10px;
     text-align: center;
-    border: thin white solid;
     height: 50px;
-    color: #000;
+    color: whitesmoke;
 }
 .section2{
     height: 50vh;

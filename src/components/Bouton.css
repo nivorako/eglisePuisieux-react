@@ -1,5 +1,6 @@
 
  a{
+    text-shadow: 3px 3px 5px black;
     color: whitesmoke;
 }
 a:hover{
@@ -11,15 +12,18 @@ a:hover{
     z-index: 1;
 }
 .dropdown-content a{
-    margin: 10px;
-    padding-left: 10px;
-    background-color: rgb(238, 225, 225);
-    color: black;
-    width: 300px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(171, 201, 236);
+    color: whitesmoke;
+    height: 50px;
+    width: 400px;
     display: block;
 }
 .dropdown-content a:hover{
-    color: black;
+    background-color: rgb(10, 74, 170);
+    color: whitesmoke;
+    text-decoration: none;
 }
 .dropdown {
     position: relative;
