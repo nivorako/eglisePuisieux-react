@@ -33,5 +33,5 @@
     transition: all 1s;
   }
 .entete span:hover{
-  
+    transform: scale(1.5);
 }
